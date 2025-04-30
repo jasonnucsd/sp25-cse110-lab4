@@ -32,3 +32,8 @@
     5.  false           true treated as 1
     6.  true            both types strictly equal
 15. == compares with conversions following rules, === requires strict equality without conversions. 
+16. 
+17. An array is returned with 3 callbacks to the doSomething function using the corresponding contents of [1,2,3] as parameters. 
+This is because, in JS, you can pass and treat functions as variables, which is happening here.
+18. 
+19. 1\n4\n3\n2 is the output, since the setTimeout function is being used to asynchronously delay the execution of 2 and 3.
